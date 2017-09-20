@@ -10,6 +10,8 @@
 		0A8DB8621F72154200BAEF7E /* DbConnector.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A8DB8581F72154200BAEF7E /* DbConnector.framework */; };
 		0A8DB8671F72154200BAEF7E /* DbConnectorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DB8661F72154200BAEF7E /* DbConnectorTests.m */; };
 		0A8DB8691F72154200BAEF7E /* DbConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8DB85B1F72154200BAEF7E /* DbConnector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A8DB8741F72157E00BAEF7E /* Calculate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A8DB8721F72157E00BAEF7E /* Calculate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A8DB8751F72157E00BAEF7E /* Calculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A8DB8731F72157E00BAEF7E /* Calculate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		0A8DB8611F72154200BAEF7E /* DbConnectorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DbConnectorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A8DB8661F72154200BAEF7E /* DbConnectorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DbConnectorTests.m; sourceTree = "<group>"; };
 		0A8DB8681F72154200BAEF7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A8DB8721F72157E00BAEF7E /* Calculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculate.h; sourceTree = "<group>"; };
+		0A8DB8731F72157E00BAEF7E /* Calculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 			children = (
 				0A8DB85B1F72154200BAEF7E /* DbConnector.h */,
 				0A8DB85C1F72154200BAEF7E /* Info.plist */,
+				0A8DB8721F72157E00BAEF7E /* Calculate.h */,
+				0A8DB8731F72157E00BAEF7E /* Calculate.m */,
 			);
 			path = DbConnector;
 			sourceTree = "<group>";
@@ -93,6 +99,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8DB8741F72157E00BAEF7E /* Calculate.h in Headers */,
 				0A8DB8691F72154200BAEF7E /* DbConnector.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -195,6 +202,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A8DB8751F72157E00BAEF7E /* Calculate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
